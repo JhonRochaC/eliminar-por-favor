@@ -7,6 +7,8 @@ FLAGS = flags.FLAGS
 FLAGS(sys.argv)
 #-----
 
+a = 10
+
 from os import listdir
 from os.path import isfile, join, splitext, exists, getsize
 import time #Para calcular los frames por segundo
