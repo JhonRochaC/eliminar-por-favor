@@ -9,6 +9,7 @@ FLAGS(sys.argv)
 
 a = 10
 b=11
+c = 30
 
 from os import listdir
 from os.path import isfile, join, splitext, exists, getsize
